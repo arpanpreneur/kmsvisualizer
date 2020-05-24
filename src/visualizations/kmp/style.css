@@ -1,0 +1,30 @@
+.parentContainer {
+    margin-top: 2%;
+}
+
+td {
+    min-width: 30px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.laling {
+    text-align: left;
+}
+
+.range-slider {
+    /* padding: 2px 2px 2px 2px; */
+
+    padding-top: 3px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-radius: 4px;
+
+}
