@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kmsvisualizer/static/css/main.45c9cede.chunk.css",
+    "main.js": "/kmsvisualizer/static/js/main.dd41ade9.chunk.js",
+    "main.js.map": "/kmsvisualizer/static/js/main.dd41ade9.chunk.js.map",
+    "runtime-main.js": "/kmsvisualizer/static/js/runtime-main.7fd51fff.js",
+    "runtime-main.js.map": "/kmsvisualizer/static/js/runtime-main.7fd51fff.js.map",
+    "static/css/2.cbbbb7c5.chunk.css": "/kmsvisualizer/static/css/2.cbbbb7c5.chunk.css",
+    "static/js/2.73c59ffa.chunk.js": "/kmsvisualizer/static/js/2.73c59ffa.chunk.js",
+    "static/js/2.73c59ffa.chunk.js.map": "/kmsvisualizer/static/js/2.73c59ffa.chunk.js.map",
+    "index.html": "/kmsvisualizer/index.html",
+    "precache-manifest.1efb3b8b0136545c598944ea1e910f64.js": "/kmsvisualizer/precache-manifest.1efb3b8b0136545c598944ea1e910f64.js",
+    "service-worker.js": "/kmsvisualizer/service-worker.js",
+    "static/css/2.cbbbb7c5.chunk.css.map": "/kmsvisualizer/static/css/2.cbbbb7c5.chunk.css.map",
+    "static/css/main.45c9cede.chunk.css.map": "/kmsvisualizer/static/css/main.45c9cede.chunk.css.map",
+    "static/js/2.73c59ffa.chunk.js.LICENSE.txt": "/kmsvisualizer/static/js/2.73c59ffa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fd51fff.js",
+    "static/css/2.cbbbb7c5.chunk.css",
+    "static/js/2.73c59ffa.chunk.js",
+    "static/css/main.45c9cede.chunk.css",
+    "static/js/main.dd41ade9.chunk.js"
+  ]
+}
