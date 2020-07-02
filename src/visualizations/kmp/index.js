@@ -285,9 +285,9 @@ export default function KMP() {
     return (
         
         <Container className="parentContainer" fluid={true}>
-            <h2>Knuth-Morris-Pratt Algorithm</h2>
+            {/* <h2>Knuth-Morris-Pratt Algorithm</h2>
             
-            <hr />
+            <hr /> */}
             <KmpSettings 
                 inputStr={inputStr} 
                 setInputStr={setInputStr} 
@@ -301,11 +301,10 @@ export default function KMP() {
             <br />
             
             <div className="step1">
-                <h4>Step 1</h4>
-                <span>Creation of the LPS / PI table</span>
-                
+                <h4>Creation of the LPS / PI table for the Search String</h4>
+                <span>Finding out the number of prefixes which are also suffixes for each substring of the Search String</span>
+
                 <div>
-                    
                     <br />
                     {
                         (step1running) ? <b>{createLPSstatusMessage}</b> : <b></b>
@@ -360,12 +359,8 @@ export default function KMP() {
 
             <br />
             <div className="step2" style={{ display: step2running || finished ? 'block' : 'none' }}> 
-                <h4>Step 2</h4>
-                <span>Search in the input string</span>
-
+                <h4>Searching for the occurrences of the Search String in the Input String</h4>
                 <div>
-                   
-                    <br />
                     {
                         (step2running) ? <b>{searchExecutionMessage}</b> : <b></b>
                     }
